@@ -1,5 +1,16 @@
 ---
 websites:
+- name: Aave Pay
+  url: https://pay.aave.com/
+  img: AavePay.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: aaveaave
+  facebook: AaveCom
+  email_address: maria@aave.com
+  region: eu
+  doc: https://twitter.com/AaveAave/status/1117760939556777984
 - name: Advanced Cash
   url: https://advcash.com/
   img: advancedcash.png
@@ -8,11 +19,35 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: ALFAcoins
+  url: https://www.alfacoins.com/
+  img: alfacoins.png
+  twitter: AlfaCoins
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Amazon Payments
   url: https://payments.amazon.com
   twitter: AmazonPayments
   img: amazon.png
   bch: false
+- name: Anypay
+  url: https://anypay.global/
+  img: anypay.png
+  twitter: anypay_
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://twitter.com/Anypay_/status/1091385727533936641
+- name: AtomicPay
+  url: https://atomicpay.io/
+  img: atomicpay.png
+  twitter: AtomicPay
+  facebook: atomicpay
+  email_address: support@atomicpay.io
+  bch: true
+  btc: true
+  othercrypto: true
 - name: BCHPLS.io
   url: https://bchpls.io/
   img: bchplsPOS.png
@@ -53,7 +88,16 @@ websites:
   bch: false
   btc: true
   othercrypto: false
-- name: Bitpay
+- name: Bitnovo
+  url: https://www.bitnovo.com/
+  img: bitnovo.png
+  twitter: bitnovo
+  facebook: BitcoinBitnovo
+  email_address: soporte@bitnovo.com
+  bch: true
+  btc: true
+  othercrypto: true
+- name: BitPay
   url: https://bitpay.com
   img: bitpay.png
   twitter: bitpay
@@ -132,13 +176,11 @@ websites:
   img: coinify.png
   twitter: coinify
   facebook: coinify
-  bch: false
+  bch: true
   bsv: true
   btc: true
   othercrypto: true
   doc: https://help.coinify.com/article/108-list-of-supported-blockchain-currencies
-  exceptions:
-    text: Coinify used to accept BCH, but as of 2019-01-22 stopped accepting it
 - name: Coinpay
   url: https://coinpay.in.th/
   img: coinpay.png
@@ -214,11 +256,30 @@ websites:
   twitter: dwolla
   facebook: dwolla
   bch: false
+- name: ELIPAY
+  url: https://elipay.com/
+  img: elipay.png
+  twitter: eligmacom
+  facebook: eligmacom
+  bch: true
+  btc: true
+  othercrypto: true
+  region: eu
+  country: SI
+  doc: https://elipay.com/locations
 - name: Flattr
   img: flattr.png
   url: https://flattr.com
   twitter: flattr
   bch: false
+- name: Gateway
+  url: https://gateway.cash/
+  img: gateway.png
+  twitter: cash_gateway
+  email_address: hello@gateway.cash
+  bch: true
+  btc: false
+  othercrypto: false
 - name: GloBee
   url: https://globee.com/
   img: globee.png
@@ -266,17 +327,22 @@ websites:
   img: iochain.png
   bch: false
   btc: true
-  othercrypto: true
+  othercrypto: false
 - name: Klarna
   url: https://www.klarna.com
   img: klarna.png
   twitter: Klarna
   facebook: KlarnaUSA
   bch: false
+- name: Menu.cash
+  url: https://menu.cash/
+  img: menucash.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: MiniPOS
   url: https://www.minipos.cash/
   img: minipos.png
-  twitter: miniposcash
   bch: true
   btc: true
   othercrypto: true
@@ -286,8 +352,10 @@ websites:
   twitter: molliepayments
   facebook: molliehq
   bch: false
-  btc: true
+  btc: false
   othercrypto: false
+  exceptions:
+    text: Mollie used to accept BTC, but as of 2019-05-01 stopped accepting it
 - name: moneybutton.com
   url: https://www.moneybutton.com/
   img: moneybutton.png
@@ -314,13 +382,6 @@ websites:
   keywords:
   - bitpay
   - bip70
-- name: PayBear
-  url: https://www.paybear.io/
-  img: paybear.png
-  twitter: PayBeario
-  bch: true
-  btc: true
-  othercrypto: true
 - name: Paybis
   url: https://paybis.com/
   img: Paybis.png
@@ -400,6 +461,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Savvy
+  url: https://www.savvy.io/
+  img: savvy.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: savvyio
+  email_address: mark@savvy.io
+  doc: https://coinjournal.net/crypto-payment-processor-paybear-rebrands-to-savvy/
 - name: Selly.gg
   url: https://selly.gg
   img: sellygg.png

@@ -26,6 +26,16 @@ websites:
   bch: true
   btc: false
   othercrypto: false
+- name: Blue Lab Vapors
+  url: https://bluelabvapors.com/
+  img: bluelabvapors.png
+  twitter: bluelabvapors
+  facebook: bluelabvapors
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: Cigaret Kretek
   url: https://cigaretkretek.com/
   img: cigaretkretek.png
@@ -61,6 +71,17 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
+- name: Fuggin Vapor Co.
+  url: https://fugginvapor.com/
+  img: fugginvaporco.png
+  twitter: FugginVapor
+  facebook: fugginvapor
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Hookah On Mars
   url: https://hookahonmars.com/
   img: hookahonmars.png
@@ -154,6 +175,7 @@ websites:
   img: vapescom.png
   twitter: vapescom
   facebook: vapescom
+  country: US
   bch: false
   btc: true
   othercrypto: true

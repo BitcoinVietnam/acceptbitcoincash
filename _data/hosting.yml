@@ -63,7 +63,6 @@ websites:
 - name: Aulerion
   url: https://www.aulerion.com/
   img: aulerion.png
-  twitter: aulerion
   facebook: aulerion
   email_address: support@aulerion.com
   bch: true
@@ -107,6 +106,17 @@ websites:
   bch: false
   twitter: bluehost
   facebook: bluehost
+- name: BudgetNode
+  url: https://budgetnode.com/
+  img: budgetnode.png
+  twitter: BudgetNode
+  facebook: BudgetNodeVPS
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: BuyVM
   url: https://www.buyvm.net/
   img: buyvm.png
@@ -116,6 +126,15 @@ websites:
   email_address: admin@frantech.ca
   othercrypto: true
   twitter: FrantechCA
+- name: Bytesized Hosting
+  url: https://bytesized-hosting.com/
+  img: bytesizedhosting.png
+  twitter: bytesizedboxes
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinpayments.net
 - name: CDNsun
   url: https://cdnsun.com
   img: cdnsun.png
@@ -130,7 +149,6 @@ websites:
   btc: true
   othercrypto: true
   twitter: centerserv
-  facebook: centerserv
   keywords:
   - coingate
 - name: ChunkHost
@@ -140,16 +158,17 @@ websites:
   btc: true
   othercrypto: false
   twitter: chunkhost
-- name: Cleverhost
-  url: https://cleverhost.ca
+- name: CleverHost
+  url: https://cleverhost.ca/
   img: Cleverhost.png
-  bch: false
-  btc: true
-  othercrypto: true
   twitter: cleverhostca
   facebook: cleverhost
+  email_address: info@cleverhost.ca
+  bch: true
+  btc: true
+  othercrypto: true
   keywords:
-  - coinpayments
+  - coinpayments.net
 - name: Cloud9
   url: https://cloud9hosting.com/
   img: cloud9hosting.png
@@ -206,6 +225,12 @@ websites:
   othercrypto: true
   keywords:
   - cashaddr
+- name: Commercial Network Services
+  url: https://www.commercialnetworkservices.com/
+  img: CNS.png
+  bch: true
+  btc: true
+  othercrypto: true
 - name: CrownCloud
   url: https://crowncloud.net/
   img: crowncloud.png
@@ -217,6 +242,14 @@ websites:
   - bitpay
   - coinpayments
   - coingate
+- name: Costa Rica Servers
+  url: https://crservers.com/
+  img: costaricaservers.png
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinpayments.net
 - name: cyon
   url: https://www.cyon.ch
   img: cyon.png
@@ -254,7 +287,6 @@ websites:
 - name: Fastly
   url: https://www.fastly.com
   twitter: fastly
-  facebook: fastlycdn
   img: fastly.png
   bch: false
 - name: Feral Hosting
@@ -350,6 +382,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Host-Unlimited.de
+  url: https://host-unlimited.de/
+  img: hostunlimited.png
+  twitter: host_unlimited
+  facebook: HostUnlimited.de
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: Host1.no
   url: https://host1.no
   img: host1.png
@@ -370,6 +412,17 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Hosting.co.uk
+  url: https://www.hosting.co.uk/
+  img: hostingcouk.png
+  twitter: hosting_couk
+  facebook: hosting.co.uk
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Hostinger
   url: https://www.hostinger.com/
   img: Hostinger.png
@@ -393,6 +446,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Hudson Valley Host
+  url: https://www.hudsonvalleyhost.com
+  img: HudsonValleyHost.png
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: hvhost
+  keywords:
+  - bitpay
+  - bip70
 - name: ICUK
   url: https://www.icuk.net/
   img: icuk.png
@@ -480,7 +543,7 @@ websites:
   twitter: kinsta
   facebook: kinstahosting
   bch: false
-- name: Koddos
+- name: KoDDoS
   url: https://koddos.net
   img: Koddos.png
   bch: false
@@ -488,6 +551,8 @@ websites:
   othercrypto: true
   twitter: koddoscom
   facebook: koddoscom
+  keywords:
+  - coinpayments.net
 - name: LCN.com
   url: https://www.lcn.com
   twitter: lcndotcom
@@ -587,6 +652,16 @@ websites:
   bch: true
   btc: true
   doc: https://www.nearlyfreespeech.net/about/faq#Payment
+- name: Neocities
+  url: https://neocities.org
+  img: Neocities.png
+  bch: false
+  btc: true
+  othercrypto: false
+  twitter: neocities
+  facebook: neocities
+  exceptions:
+    text: Send verification screenshot of the transaction to their support email
 - name: Netcup
   url: https://netcup.eu/
   img: netcup.png
@@ -666,6 +741,14 @@ websites:
   img: ovh.png
   bch: false
   doc: https://www.ovh.com/support/termsofservice/payment.xml
+- name: P2PVPS
+  url: https://p2pvps.org/
+  img: p2pvps.png
+  twitter: P2PVPS
+  facebook: P2PVPS
+  bch: true
+  btc: true
+  othercrypto: true
 - name: PiVPS Services
   url: https://pivps.com/
   img: pivps.png
@@ -763,6 +846,27 @@ websites:
     text: Link to complete payment at Support page
   keywords:
   - coinpayments.net
+- name: Serveo
+  url: https://serveo.nl/
+  img: serveo.png
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
+- name: ServerAstra
+  url: https://serverastra.com/
+  img: serverastra.png
+  twitter: serverastra
+  facebook: serverastra
+  email_address: info@serverastra.com
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Servercow
   url: https://www.servercow.de
   img: servercow.png
@@ -823,6 +927,15 @@ websites:
   keywords:
   - spectrocoin
   - coinpayments.net
+- name: Swiss Hosting Solutions
+  url: https://swissmade.host/
+  img: swissmadehost.png
+  twitter: SwissMadeHOST
+  facebook: swissmadehost
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://swissmade.host/en/blog/New-Payment-Method-Reduced-Colocation-Fees
 - name: TAB.DIGITAL
   url: https://tab.digital
   img: tabdigital.png
@@ -864,10 +977,12 @@ websites:
   twitter: ultraseedbox
   facebook: ultrasbox
   img: ultraseedbox.png
-  bch: false
+  bch: true
   btc: true
-  othercrypto: false
+  othercrypto: true
   doc: https://kb.ultraseedbox.com/display/DOC/Payments
+  keywords:
+  - coingate
 - name: UpCloud
   url: https://www.upcloud.com
   email_address: sales@upcloud.com
@@ -875,7 +990,7 @@ websites:
   img: upcloud.png
   bch: false
 - name: Usenet Bucket
-  url: https://www.usenetbucket.com/en/
+  url: https://www.usenetbucket.com/
   img: UsenetBucket.png
   twitter: UsenetBucket
   region: eu
@@ -904,6 +1019,16 @@ websites:
   twitter: versio
   img: versio.png
   bch: false
+- name: Vintcer
+  url: https://www.vintcer.com/
+  img: vintcer.png
+  bch: true
+  btc: true
+  othercrypto: false
+  doc: https://www.vintcer.com/pay-with-bitpay
+  keywords:
+  - bitpay
+  - bip70
 - name: VPS City
   url: https://vps-city.com
   img: vpscity.png

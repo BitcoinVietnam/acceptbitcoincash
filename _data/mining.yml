@@ -18,6 +18,22 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: BitDeer
+  url: https://www.bitdeer.com/
+  img: bitdeer.png
+  twitter: BitDeerOfficial
+  facebook: BitDeerplatform
+  bch: true
+  btc: true
+  othercrypto: true
+- name: Bitforx
+  url: https://bitforx.com/
+  img: bitforx.png
+  twitter: Bitforx
+  facebook: Bitforx-1911907442401569
+  bch: true
+  btc: true
+  othercrypto: true
 - name: BitMain
   url: https://www.bitmain.com/
   img: bitmain.png
@@ -31,6 +47,17 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: Cyberian Mine
+  url: https://cyberianmine.de/
+  img: cyberianmine.png
+  twitter: CyberianMine
+  facebook: cyberianmine
+  email_address: info@cyberianmine.de
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: Gigampz
   url: http://www.gigampz.com
   twitter: gigampz
@@ -49,13 +76,23 @@ websites:
   doc: https://mining-bios.eu/2018/01/21/more-native-crypto/
 - name: gpuShack
   url: https://www.gpushack.com
-  twitter: gpuShack
   facebook: shack.gpu
   img: gpushack.png
   bch: true
   btc: false
   othercrypto: true
   doc: https://gpushack.com/pages/bitcoin-payments
+- name: Hashes Miners Store
+  url: https://hashesminers.com/
+  img: hashesminersstore.png
+  bch: true
+  btc: true
+  othercrypto: false
+  region: na
+  country: US
+  keywords:
+  - bitpay
+  - bip70
 - name: MinerParts
   url: https://minerparts.com/
   img: minerparts.png
@@ -66,6 +103,14 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
+- name: Mining Pool Italia
+  url: https://www.miningpoolitalia.com/
+  img: MiningPoolItalia.png
+  bch: true
+  btc: false
+  othercrypto: true
+  facebook: miningpoolitalia
+  region: eu
 - name: Suprnova
   url: https://www.suprnova.cc/
   img: suprnova.png

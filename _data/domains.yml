@@ -27,7 +27,6 @@ websites:
   url: https://www.1and1.com/
   img: 1and1.png
   bch: false
-  twitter: 1and1
   facebook: 1and1
 - name: Above.com
   url: https://www.above.com
@@ -95,6 +94,13 @@ websites:
   bch: false
   facebook: Domaindotcom
   img: domaindotcom.png
+- name: domainFACTORY
+  url: https://www.df.eu
+  img: domainfactory.png
+  bch: false
+  twitter: domainfactory
+  facebook: domainfactory.GmbH
+  lang: de
 - name: Domains-index.com
   url: https://domains-index.com/
   img: domains-index.png
@@ -103,13 +109,6 @@ websites:
   othercrypto: true
   twitter: domains_index
   facebook: domainsindex
-- name: domainFACTORY
-  url: https://www.df.eu
-  img: domainfactory.png
-  bch: false
-  twitter: domainfactory
-  facebook: domainfactory.GmbH
-  lang: de
 - name: Domains4Bitcoins.com
   url: https://www.domains4bitcoins.com
   img: domains4bitcoins.png
@@ -141,13 +140,12 @@ websites:
   twitter: easyDNS
   facebook: easyDNS
   email_address: markjr@easydns.com
-  city: Toronto
-  bch: true
+  bch: false
   btc: true
   othercrypto: true
-  doc: https://www.easydns.com/blog/2018/01/08/0-confirmations-now-accepting-bitcoin-cash-as-a-payment-method/
+  doc: https://easydns.com/blog/2019/01/29/bitcoin-cash-is-out-litecoin-is-in/
   exceptions:
-    text: Crypto-Payments only for existing customers/non-new accounts
+    text: easyDNS used to accept BCH, but as of 2019-01-29 stopped accepting it
 - name: eNom
   url: https://www.enom.com/
   img: enom.png
@@ -244,8 +242,6 @@ websites:
   url: https://www.incapsula.com/
   img: incapsula.png
   bch: false
-  twitter: incapsula_com
-  facebook: Incapsula
 - name: Internet.bs
   url: https://internetbs.net/
   img: internetbs.png
@@ -367,12 +363,10 @@ websites:
   url: https://njal.la
   twitter: njal_la
   img: njal_la.png
-  bch: false
+  bch: true
   btc: true
   othercrypto: true
   doc: https://twitter.com/njal_la/status/930417225013628928
-  exceptions:
-    text: Njalla used to accept BCH, but as of 2018-12-22 stopped accepting it
 - name: No-IP
   url: https://www.noip.com/
   img: noip.png
@@ -424,19 +418,18 @@ websites:
 - name: porkbun
   url: https://porkbun.com
   img: porkbunBuns.png
-  bch: false
-  btc: false
-  twitter: PorkbunLLC
+  bch: true
+  btc: true
+  othercrypto: true
   facebook: Porkbun-1626180577611026
-  exceptions:
-    text: Porkbun used to accept BTC, but as of 2018-04-26 stopped accepting it
   doc: https://porkbun.com/support/payment_options
+  keywords:
+  - coinbase
 - name: Rebel.ca
   url: https://www.rebel.ca
   img: rebeldotcom.png
   bch: false
   twitter: rebeldotcom
-  facebook: rebeldomains
 - name: Register4Less
   url: https://register4less.com/
   img: register4less.png
@@ -455,7 +448,6 @@ websites:
   twitter: registrobr
 - name: ScrybaWEB
   url: https://www.scrybaweb.com/
-  twitter: scrybaweb
   facebook: scrybaweb
   email_address: contact@scrybaweb.com
   img: scrybaweb.png

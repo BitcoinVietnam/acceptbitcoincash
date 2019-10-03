@@ -1,5 +1,13 @@
 ---
 websites:
+- name: Apache Software Foundation
+  url: https://www.apache.org/
+  img: apachesoftwarefoundation.png
+  twitter: TheASF
+  bch: true
+  btc: true
+  othercrypto: false
+  doc: https://www.apache.org/foundation/contributing.html#Bitcoin
 - name: Binary Fortress Software
   url: https://www.binaryfortress.com/
   img: binaryfortress.png
@@ -32,6 +40,13 @@ websites:
   btc: false
   othercrypto: false
   doc: https://pos.cheddr.cash/#landingDonate
+- name: Cronnit
+  url: https://cronnit.us/
+  img: cronnit.png
+  bch: true
+  btc: false
+  othercrypto: true
+  doc: https://cronnit.us/donate
 - name: DAVDroid
   url: https://www.davdroid.com/donate/
   img: DAVDroid.png
@@ -70,11 +85,17 @@ websites:
   doc: http://www.flowee.org/donations/
   keywords:
   - moneybutton
+- name: FossHub
+  url: https://www.fosshub.com/
+  img: fosshub.png
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://www.fosshub.com/crypto.html
 - name: GNOME
   url: https://www.gnome.org/
   img: gnome.png
   twitter: gnome
-  facebook: GNOMEDesktop
   bch: true
   btc: true
   othercrypto: false
@@ -94,6 +115,14 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: KeePassXC
+  url: https://keepassxc.org/
+  img: keepassxc.png
+  twitter: KeePassXC
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://keepassxc.org/donate/
 - name: LibreOffice
   url: https://www.libreoffice.org/
   img: libreoffice.png

@@ -1,13 +1,31 @@
 ---
 websites:
+- name: Atomic Wallet
+  url: https://atomicwallet.io
+  img: AtomicWallet.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: atomicwallet
+  facebook: atomicwallet
+  email_address: mick@atomicwallet.io
+  doc: https://atomicwallet.io/bitcoin-cash-wallet
+- name: BCHgallery
+  url: https://pokkst.xyz/info/bchgallery/
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Bitcoin ABC
   url: https://www.bitcoinabc.org/
   img: bitcoinabc.png
+  twitter: Bitcoin_ABC
+  facebook: bitcoinabc.org
   bch: true
   btc: false
 - name: Bitcoin Unlimited
   url: https://www.bitcoinunlimited.info/
   img: bitcoinunlimited.png
+  twitter: BitcoinUnlimit
   bch: true
   btc: true
 - name: Bitcoin XT
@@ -18,6 +36,7 @@ websites:
 - name: Bitcoin.com Wallet
   url: https://wallet.bitcoin.com/
   img: bitcoincom.png
+  twitter: BitcoinCom
   bch: true
   btc: true
   doc: https://news.bitcoin.com/introducing-the-simple-to-use-and-robust-bitcoin-com-wallet/
@@ -34,6 +53,17 @@ websites:
   othercrypto: true
   facebook: blockchain
   twitter: blockchain
+- name: Blockplate
+  url: https://www.blockplate.com
+  img: Blockplate.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: blockplate
+  region: na
+  country: US
+  keywords:
+  - coinbase
 - name: Bread
   url: https://breadapp.com/
   img: bread.png
@@ -90,7 +120,7 @@ websites:
   img: cointext.png
   bch: true
   btc: false
-  othercrypto: false
+  othercrypto: true
 - name: CoolWallet S
   url: https://coolwallet.io
   img: coolwallets.png
@@ -106,6 +136,12 @@ websites:
   twitter: bitpay
   bch: true
   btc: true
+  othercrypto: false
+- name: Crescent Cash
+  url: https://crescent.cash/
+  twitter: crescentcash
+  bch: true
+  btc: false
   othercrypto: false
 - name: Edge
   url: https://edgesecure.co
@@ -137,7 +173,7 @@ websites:
   url: https://guarda.co/
   img: GuardaWallet.png
   bch: true
-  btc: false
+  btc: true
   othercrypto: true
   twitter: guardawallet
 - name: HandCash
@@ -163,17 +199,28 @@ websites:
   btc: true
   doc: https://blog.jaxx.io/update-bch-jaxx/
 - name: KeepKey
-  url: https://www.keepkey.com/
+  url: https://shapeshift.io/keepkey/
   img: keepkey.png
+  twitter: cryptokeepkey
   bch: true
   btc: true
   othercrypto: true
-  doc: https://www.keepkey.com/2017/07/31/bitcoin-cash-keepkey/
-  exceptions:
-    text: Wallet currently in beta testing.
+  doc: https://keepkey.zendesk.com/hc/en-us/articles/360003047479
+  keywords:
+  - bitpay
+  - bip70
+- name: Keoken
+  url: https://www.keoken.io/
+  img: keoken.png
+  twitter: KeokenIO
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Ledger
   url: https://www.ledgerwallet.com/
   img: ledger.png
+  twitter: Ledger
+  facebook: Ledger
   bch: true
   btc: true
   othercrypto: true
@@ -188,6 +235,13 @@ websites:
   bch: false
   btc: true
   othercrypto: true
+- name: melis.io
+  url: https://melis.io/
+  img: melisio.png
+  twitter: meliswallet
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Mycelium
   url: https://wallet.mycelium.com/
   img: mycelium.png
@@ -197,6 +251,13 @@ websites:
   othercrypto: false
   exceptions:
     text: Only supports selling BCH for BTC. Full BCH support is coming soon.
+- name: NextCash
+  url: https://nextcash.tech/
+  img: nextcash.png
+  twitter: CashNext
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Parity
   url: https://parity.io
   img: parity.png
@@ -223,14 +284,6 @@ websites:
   btc: true
   othercrypto: true
   doc: https://blog.trezor.io/claim-bcash-bitcoin-cash-bch-bcc-trezor-wallet-f0a810d5864a
-- name: Unit Wallet
-  url: https://www.unitwallet.co/
-  twitter: UnitWallet
-  facebook: 
-  img: unitwallet.png
-  bch: true
-  btc: false
-  othercrypto: false
 - name: ZuPago HyBrid Wallet
   url: https://zupago.pe/
   twitter: zupago

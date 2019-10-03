@@ -11,14 +11,6 @@ websites:
   bch: true
   btc: false
   othercrypto: false
-- name: Bitcoin Cash Football
-  url: https://BitcoinCashFootball.com/
-  img: bchfootball.png
-  twitter: PeanutManEric
-  email_address: Eric@BitcoinCashFootball.com
-  bch: true
-  btc: false
-  othercrypto: false
 - name: Black Desert Online
   url: https://www.blackdesertonline.com/
   img: bdo.png
@@ -53,6 +45,17 @@ websites:
   facebook: ChessTempo
   bch: true
   btc: true
+  keywords:
+  - bitpay
+  - bip70
+- name: Chess.com
+  url: https://www.chess.com/
+  img: Chesscom.png
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: chesscom
+  doc: https://support.chess.com/customer/portal/articles/2970203-can-i-pay-with-bitcoin-
   keywords:
   - bitpay
   - bip70
@@ -91,7 +94,6 @@ websites:
   img: epicgames.png
   bch: false
   twitter: EpicGames
-  facebook: epicgamesinc
 - name: Eternal Summer Sale
   url: https://eternalsummersale.com
   img: EternalSummerSale.png
@@ -174,7 +176,6 @@ websites:
   url: https://intl.garena.com
   img: garena.png
   bch: false
-  twitter: Garenaonline
   facebook: Garenaonline
 - name: GOG.com
   url: https://www.gog.com/
@@ -250,9 +251,13 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+  doc: https://www.jjgames.com/page/bitcoin
   keywords:
   - bitpay
   - bip70
+  exceptions:
+    text: You need to apply the promo code bitcoin for Bitcoin payment to appear.
+      See the doc link for details.
 - name: Keys4Coins
   url: https://www.keys4coins.com
   img: keys4coins.png
@@ -297,6 +302,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: MMOAuctions
+  url: https://mmoauctions.com
+  img: MMOAuctions.png
+  bch: true
+  btc: true
+  othercrypto: true
+  facebook: mmoau
+  email_address: contact@mmoauctions.com
 - name: MMOGA
   url: https://www.mmoga.com/
   img: mmoga.png
@@ -439,6 +452,16 @@ websites:
   bch: false
   twitter: RuneScape
   facebook: RuneScape
+- name: SCDKey
+  url: https://www.scdkey.com/
+  img: scdkey.png
+  twitter: scdkeys
+  facebook: SCDKeyfanpage
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - webmoney
 - name: Square Enix
   url: https://na.square-enix.com/us/home
   img: squarenix.png
@@ -516,14 +539,15 @@ websites:
 - name: Xbox Live (with Microsoft Account)
   url: https://www.xbox.com/live
   img: xbox.png
-  bch: false
-  btc: false
-  othercrypto: false
   twitter: XboxSupport
   facebook: Xbox
-  exceptions:
-    text: Xbox Live used to accept BTC & BCH, but as of 2018-07-07 stopped accepting
-      it
+  bch: true
+  btc: true
+  othercrypto: false
+  doc: https://support.microsoft.com/help/13942/
+  keywords:
+  - bitpay
+  - bip70
 - name: YoYo Games
   url: https://www.yoyogames.com/
   img: yoyogames.png
@@ -536,12 +560,10 @@ websites:
   email_address: info@zap-hosting.com
   twitter: zaphosting
   facebook: zaphosting
-  bch: false
-  bsv: false
+  bch: true
   btc: true
-  othercrypto: false
+  othercrypto: true
   keywords:
   - coinify
   exceptions:
-    text: ZAP-Hosting used to accept BCH & Other Cryptos, but as of 2018-12-06 stopped
-      accepting it
+    text: Select 'Pay with Bitcoin' as payment method, you can select which coin to use on Coinify

@@ -28,13 +28,6 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
-- name: BestMixer.io
-  url: https://bestmixer.io/en
-  img: bestmixer.png
-  email_address: bestmixer@protonmail.com
-  bch: true
-  btc: true
-  othercrypto: true
 - name: Bit2Bill
   url: https://www.bit2bill.com.au
   img: bit2bill.png
@@ -84,6 +77,25 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Bitcoin.com Notary
+  url: https://notary.bitcoin.com/
+  img: bitcoincomnotar.png
+  bch: true
+  btc: false
+  othercrypto: false
+- name: bitcoinfees.cash
+  url: https://bitcoinfees.cash/
+  img: bitcoinfeescash.png
+  bch: true
+  btc: false
+  othercrypto: false
+- name: BitcoinFiles
+  url: https://bitcoinfiles.com/
+  img: bitcoinfiles.png
+  twitter: BitcoinFilesBCH
+  bch: true
+  btc: false
+  othercrypto: false
 - name: BitcoinPlug
   url: https://bitcoinplug.com
   twitter: bitcoinplugatm
@@ -111,12 +123,9 @@ websites:
   url: https://bitit.io/
   img: Bitit.png
   twitter: Bitit_Gift
-  bch: false
-  bsv: false
+  bch: true
   btc: true
   othercrypto: true
-  exceptions:
-    text: Bitit used to support BCH, but as of 2019-01-10 stopped supporting it
 - name: Bitkoyn
   url: https://bitkoyn.com/
   img: bitkoyn.png
@@ -143,17 +152,6 @@ websites:
   facebook: blockchain
   twitter: blockchain
   doc: https://blog.blockchain.com/2017/12/14/bitcoin-cash/
-- name: Blockchainbottle
-  url: https://www.blockchainbottle.net
-  img: Blockchainbottle.png
-  facebook: Blockchainbottle
-  email_address: info@blockchainbottle.net
-  region: na
-  country: US
-  bch: true
-  btc: true
-  othercrypto: true
-  doc: https://www.reddit.com/r/CryptoCurrency/comments/8nsipq/started_an_online_crypto_only_liquor_store_after/
 - name: Blockchair
   url: https://blockchair.com/
   img: blockchair.png
@@ -174,6 +172,21 @@ websites:
   img: blockdozer.png
   bch: true
   btc: true
+  othercrypto: false
+- name: Bounty.Cash
+  url: https://bounty.cash/
+  img: bountycash.png
+  bch: true
+  btc: false
+  othercrypto: false
+- name: ChainTip
+  url: https://www.chaintip.org/
+  img: chaintip.png
+  twitter: tudorvintilescu
+  facebook: chaintip
+  email_address: chaintip@protonmail.com
+  bch: true
+  btc: false
   othercrypto: false
 - name: Changelly
   url: https://changelly.com
@@ -304,7 +317,6 @@ websites:
 - name: Crypto Traders Pro
   url: https://cryptotraderspro.com/
   img: CryptoTradersPro.png
-  twitter: CTProCommunity
   facebook: CryptoTradersNews
   bch: true
   btc: true
@@ -383,13 +395,25 @@ websites:
   url: https://fivebucks.com/
   img: fivebucks.png
   email_address: inquiries@fivebucks.com
-  twitter: fivebuckscom
   facebook: fivebuckscom
   bch: false
   btc: false
   bsv: true
   othercrypto: false
   doc: https://www.yours.org/content/fivebucks--the-only-truly-global-freelance-services-marketplace-is-now-20d53893af96
+- name: Forra
+  url: https://forra.io/
+  img: forra.png
+  bch: true
+  btc: true
+  othercrypto: true
+- name: GAP600
+  url: https://www.gap600.com/
+  img: gap600.png
+  twitter: bgap600
+  bch: true
+  btc: true
+  othercrypto: false
 - name: GiftOff
   url: https://www.giftoff.com/
   img: giftoff.png
@@ -399,6 +423,12 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: GitCash
+  url: https://gitcash.io/
+  img: gitcash.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Gyft
   url: https://www.gyft.com/
   img: gyft.png
@@ -407,6 +437,28 @@ websites:
   bch: true
   btc: true
   othercrypto: false
+- name: Huobi DM
+  url: https://www.hbdm.com/
+  img: huobidm.png
+  twitter: HuobiGlobal
+  facebook: huobiglobalofficial
+  bch: true
+  btc: true
+  othercrypto: true
+- name: Idle-Empire
+  url: https://www.idle-empire.com
+  img: IdleEmpire.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: csgoidleempire
+  facebook: idle.empire.csgo
+  email_address: admin@idle-empire.com
+  doc: https://blog.idle-empire.com/coinbase-withdrawals-integrated/
+  exceptions:
+    text: Users can earn virtual credits by watching videos, completing tasks, mining
+      cryptocurrencies, and many other things. Those credits can then be redeemed
+      for Bitcoin Cash, other cryptocurrencies, and gaming rewards.
 - name: Insight
   url: https://insight.bitpay.com/
   img: insight.png
@@ -433,6 +485,9 @@ websites:
   twitter: kamoneybrasil
   facebook: kamoneybrasil
   img: kamoney.png
+  lang: pt
+  region: sa
+  country: BR
   bch: true
   btc: true
   othercrypto: true
@@ -445,6 +500,12 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: lazyfox.io
+  url: https://lazyfox.io/
+  img: lazyfoxio.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Living Room of Satoshi
   url: https://www.livingroomofsatoshi.com/
   img: livingroom.png
@@ -475,6 +536,13 @@ websites:
   twitter: localcoinswap_
   facebook: localcoinswap
   email_address: penelope@localcoinswap.com
+- name: Memopay
+  url: https://www.memopay.xyz/
+  img: memopay.png
+  twitter: memopay_xyz
+  bch: true
+  btc: false
+  othercrypto: false
 - name: N.exchange
   url: https://n.exchange/
   img: nexchange.png
@@ -520,7 +588,7 @@ websites:
   btc: true
   othercrypto: false
 - name: piixPay
-  url: https://www.piixpay.com/web/
+  url: https://www.piixpay.com/
   img: piixpay.png
   bch: true
   btc: true
@@ -563,9 +631,9 @@ websites:
 - name: SatoshiTango
   url: https://satoshitango.com/
   img: satoshitango.png
-  bch: false
+  bch: true
   btc: true
-  othercrypto: false
+  othercrypto: true
   facebook: satoshitangoargentina
   twitter: satoshitango
   email_address: support@satoshitango.com
@@ -585,6 +653,18 @@ websites:
   region: eu
   country: UA
   lang: uk
+- name: Statocashi
+  url: https://statocashi.info/
+  img: statocashi.png
+  bch: true
+  btc: false
+  othercrypto: false
+- name: Taskopus
+  url: https://taskopus.io/
+  img: taskopus.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: The Big Coin
   url: https://www.thebigcoin.io
   img: thebigcoin.png
@@ -592,6 +672,26 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: The Crypto Industry Journal
+  url: https://www.katarinanolte.com/crypto-content-services/
+  img: TheCryptoIndustryJournal.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: katarinacrypto
+  email_address: katarinanolte@protonmail.com
+  keywords:
+  - coingate
+- name: The White Company
+  url: https://thewhitecompanyus.com
+  img: TheWhiteCompany.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: thewcomp
+  facebook: thewcomp
+  email_address: info@thewhitecompanyus.com
+  doc: https://dailyhodl.com/2019/03/28/e-commerce-portal-with-stellar-backed-stablecoin-launches-crypto-wallet-for-btc-eth-bch-xlm-bsv-and-bat/
 - name: Tippr
   url: https://tippr.rocketr.net
   img: tippr.png
@@ -605,6 +705,15 @@ websites:
   btc: true
   othercrypto: true
   doc: https://uphold.com/en/blog/posts/uphold/bitcoin-cash-live-on-uphold
+- name: uTop.us
+  url: https://utop.us/
+  img: utopus.png
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinpayments.net
+  - opennode
 - name: Vanity Cash
   url: https://vanity.cash
   img: VanityCash.png
@@ -613,6 +722,16 @@ websites:
   bch: true
   btc: false
   othercrypto: false
+- name: Värdex Suisse AG
+  url: https://www.vaerdex.ch/
+  img: vaerdexsuisseag.png
+  twitter: vaerdex
+  facebook: vaerdex
+  email_address: support@vaerdex.ch
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://twitter.com/vaerdex/status/1107971542099603456
 - name: WebMoney
   url: https://www.wmtransfer.com
   img: webmoney.png
@@ -620,12 +739,29 @@ websites:
   btc: true
   othercrypto: true
   doc: https://news.wmtransfer.com/en/blog/announcement_related_to_the_hard_fork_within_the_bitcoin_network
-- name: Working For Bitcoins
-  url: https://workingforbitcoins.com
-  img: workingforbitcoins.png
-  twitter: working4Bitcoin
+- name: WeGift
+  url: https://wegift.io/
+  img: wegift.png
+  twitter: WeGift
+  facebook: WeGift.io
   bch: true
   btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
+- name: Working For Bitcoins
+  url: https://workingforbitcoins.com/
+  img: WorkingForBitcoins.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: working4bitcoin
+- name: X Crypto Market
+  url: https://xcryptomarket.com/
+  img: xcryptomarket.png
+  twitter: xcryptomarket
+  facebook: X-Crypto-Market-183687882344015
+  bch: true
   othercrypto: true
 - name: Xapo
   url: https://xapo.com
@@ -636,6 +772,16 @@ websites:
   doc: https://blog.xapo.com/xapo-bitcoincash-bch-update/
   exceptions:
     text: Xapo has enabled Bitcoin Cash withdrawal but does not yet offer full support.
+- name: YOVO Pay
+  url: https://yovopay.com/
+  img: yovopay.png
+  bch: true
+  btc: true
+  othercrypto: true
+  exceptions:
+    text: They have a 19% fee which is not stated in their terms of service.
+  keywords:
+  - coingate
 - name: ZuPago
   url: https://zupago.pe/
   twitter: zupago

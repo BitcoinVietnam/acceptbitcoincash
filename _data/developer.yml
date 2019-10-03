@@ -73,6 +73,13 @@ websites:
   bch: false
   twitter: bitbucket
   facebook: Atlassian
+- name: BitcoinPython
+  url: https://bitcoinpython.mercier.link/
+  img: bitcoinpython.png
+  twitter: merc1er
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Bountysource
   url: https://www.bountysource.com/
   twitter: bountysource
@@ -123,7 +130,6 @@ websites:
   img: codeship.png
   bch: false
   twitter: codeship
-  facebook: codeship
 - name: Compose.io
   url: https://www.compose.io/
   img: composeio.png
@@ -164,6 +170,12 @@ websites:
   bch: false
   twitter: fogcreek
   facebook: fogcreeksoftware
+- name: Fountainhead Cash
+  url: https://bitdb.bch.sx/
+  img: fountainhead.png
+  bch: true
+  btc: false
+  othercrypto: false
 - name: GitHub
   url: https://github.com
   img: github.png
@@ -292,6 +304,11 @@ websites:
   img: nexmo.png
   bch: false
   twitter: nexmo
+- name: Panda Suite
+  url: https://panda-suite.github.io/
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Papertrail
   url: https://papertrailapp.com/
   img: papertrail.png
@@ -377,12 +394,26 @@ websites:
   img: sentry.png
   bch: false
   twitter: getsentry
+- name: Simple Ledger
+  url: https://simpleledger.io/
+  img: simpleledger.png
+  twitter: simpleledger
+  bch: true
+  btc: false
+  othercrypto: false
 - name: SourceForge
   url: https://sourceforge.net/
   img: sourceforge.png
   bch: false
   twitter: sfnet_ops
   facebook: SourceforgeNet
+- name: Spedn
+  url: https://spedn.readthedocs.io/
+  img: spedn.png
+  twitter: tendo_pein_sama
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Status.io
   url: https://status.io/
   img: statusio.png
@@ -420,6 +451,11 @@ websites:
   bch: false
   twitter: taigaio
   facebook: taigaio
+- name: Thermometer Cash
+  url: https://thermometer.cash/
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Thoughtlab
   url: https://www.thoughtlab.com/
   img: thoughtlab.png
@@ -488,12 +524,29 @@ websites:
   bch: false
   twitter: uptimerobot
   facebook: UptimeRobot
+- name: Visionati
+  url: https://visionati.com
+  img: Visionati.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: visionati
+  facebook: visionati
+  email_address: josh@visionati.com
+  keywords:
+  - coinbase
 - name: Visual Studio Online
   url: https://www.visualstudio.com/
   img: visualstudio.png
   bch: false
   twitter: visualstudio
   facebook: visualstudio
+- name: We Program IT
+  url: https://www.weprogram.it/
+  email_address: contact@weprogram.it
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Zapier
   url: https://zapier.com
   img: zapier.png

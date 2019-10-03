@@ -21,14 +21,6 @@ websites:
   btc: true
   othercrypto: true
   doc: https://medium.com/chapin-labs/all-chapin-labs-e-commerce-companies-to-accept-bitcoin-cash-2bb40d95f94d
-- name: Afri Garments
-  url: https://afrigarments.com/
-  img: afrigarments.png
-  bch: true
-  btc: false
-  othercrypto: false
-  keywords:
-  - rocketr
 - name: AstorBond.com
   url: https://www.astorbond.com/
   img: astorbond.png
@@ -156,59 +148,53 @@ websites:
   doc: https://clockworkcrypto.com/2018/05/30/soft-launch/
   keywords:
   - coinpayments.net
-- name: Coini Shoes
-  url: https://coinish.online/
-  email_address: sales@coinish.online
+- name: CoinSpice Store
+  url: https://store.coinspice.io/
+  img: coinspicestore.png
+  twitter: coinspice
   bch: true
-  btc: true
-  othercrypto: true
+  btc: false
+  othercrypto: false
+  keywords:
+  - coinbase
 - name: Combatant Gentlemen
   url: https://combatgent.com
   img: combatgent.png
   bch: false
   twitter: CombatGent
   facebook: combatgent
+- name: Corridor Digital
+  url: https://corridordigital.store/
+  img: corridordigital.png
+  twitter: corridordigital
+  facebook: corridordigital
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
+- name: Crizzle's Buttons
+  url: https://www.etsy.com/shop/CrizzleOnEtsy
+  img: CrizzlesButtons.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: crizzlesbuttons
+  facebook: crizzlesbuttons2
+  email_address: crizzlesbuttonsinc@yahoo.com
+  country: US
+  state: WA
+  city: Spokane
+  exceptions:
+    text: When ordering from the etsy shop, select 'other' as your payment method
+      and send a message in regards as to how you wish to pay with crypto.
 - name: Cryptartica
   url: https://cryptartica.com/
   img: cryptartica.png
   bch: true
   btc: false
   othercrypto: false
-- name: Crypto and Tech Gear
-  url: https://cryptoandtechgear.com/
-  img: cryptotechgear.png
-  facebook: Crypto-And-Tech-Gear-252120468687324
-  email_address: btcltcethmerch@gmail.com
-  bch: true
-  btc: true
-  othercrypto: true
-  exceptions:
-    text: BitPay payment option is broken
-  keywords:
-  - coinbase
-  - coinpayments.net
-- name: Crypto Pro Shop
-  url: https://cryptopro.shop/
-  img: cryptoproshop.png
-  twitter: Crypto_Pro_Shop
-  facebook: TheCryptoProShop
-  email_address: social.media@cryptopro.shop
-  bch: true
-  btc: true
-  othercrypto: true
-  doc: https://cryptopro.shop/cryptocurrency-clothing-store/
-  keywords:
-  - coinpayments.net
-- name: CryptoLamboMerch.com
-  url: https://www.cryptolambomerch.com/
-  email_address: joel.holsinger@yahoo.com
-  bch: true
-  btc: true
-  othercrypto: true
-  keywords:
-  - bitpay
-  - coinbase
-  - coinpayments.net
 - name: CRYPTOMATIC
   url: https://cryptomatic.io
   twitter: cryptomatic_io
@@ -217,18 +203,6 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-- name: Cryptone.Media
-  url: https://www.cryptonemedia.com
-  img: CryptoneMedia.png
-  twitter: CryptoneMedia
-  facebook: cryptonemedia
-  email_address: cryptone.media@gmail.com
-  country: US
-  bch: true
-  btc: true
-  othercrypto: true
-  exceptions:
-    text: Select Other Payment Options at Check Out
 - name: CryptoVerge
   url: http://www.cryptoverge.com/
   img: cryptoverge.png
@@ -237,6 +211,8 @@ websites:
   bch: false
   btc: true
   othercrypto: true
+  keywords:
+  - coinpayments.net
 - name: CuffLinked
   url: http://www.cufflinked.com.au/
   img: cufflinked.png
@@ -271,17 +247,6 @@ websites:
   keywords:
   - bitpay
   - bip70
-- name: dry.camp
-  url: https://dry.camp
-  img: dryCamp.png
-  twitter: drycampteam
-  facebook: drycampteam
-  email_address: service@dry.camp
-  region: na
-  bch: true
-  btc: true
-  othercrypto: true
-  doc: https://www.reddit.com/r/btc/comments/7yy0dw/because_of_coinbase_commerce_we_added_bitcoin/
 - name: Easy Optical
   url: https://www.easyoptical.com/
   img: easyoptical.png
@@ -378,16 +343,16 @@ websites:
   - bitpay
   - bip70
 - name: Giacomo Cortes
-  url: https://shop.giacomocortes.com/
+  url: https://giacomocortes.com/
   img: giacomocortes.png
   twitter: GiacomoCortes
   facebook: GiacomoCortes
-  lang: de
   bch: false
-  btc: true
+  btc: false
   othercrypto: false
-  keywords:
-  - coingate
+  exceptions:
+    text: Giacomo Cortes used to accept BTC, but as of 2019-03-21 stopped accepting
+      it
 - name: GORUCK
   url: https://www.goruck.com/
   img: goruck.png
@@ -407,24 +372,6 @@ websites:
   keywords:
   - bitpay
   - bip70
-- name: GVRNURSLF
-  url: https://gvrnurslf.com/
-  twitter: gvrnurslf
-  facebook: vinarmani
-  img: gvrnurslf.png
-  bch: true
-  btc: true
-  othercrypto: true
-- name: H-O-D-L
-  url: https://h-o-d-l.co
-  img: hodl.png
-  country: US
-  bch: true
-  btc: true
-  othercrypto: true
-  exceptions:
-    text: select Coinbase Commerce as payment option upon checkout and follow the
-      prompts
 - name: Hand and Sew
   url: https://handandsew.com
   img: handandsew.png
@@ -467,6 +414,7 @@ websites:
   keywords:
   - coinbase
   - coinpayments.net
+  - globee
 - name: Hold Monkey
   url: https://hodlmonkey.com/
   img: hodlmonkey.png
@@ -486,6 +434,15 @@ websites:
   othercrypto: true
   keywords:
   - coinpayments.net
+- name: INKCru & Co
+  url: https://inkcru.com/
+  img: inkcruco.png
+  bch: true
+  btc: true
+  othercrypto: false
+  keywords:
+  - bitpay
+  - bip70
 - name: Joy Studio
   url: https://joystudio.fr/
   img: joystudio.png
@@ -494,14 +451,6 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-- name: Just Hodl Apparel
-  url: https://justhodlapparel.com
-  img: justhodlapparel.png
-  region: na
-  bch: true
-  btc: false
-  othercrypto: true
-  doc: https://www.reddit.com/r/Bitcoincash/comments/8k93jt/recently_launched_a_crypto_store_and_naturally/
 - name: Kigurumi.com
   url: https://www.kigurumi.com/
   img: kigurumicom.png
@@ -544,6 +493,30 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Krypto Threadz
+  url: https://www.kryptothreadz.com/
+  img: kryptothreadz.png
+  twitter: KryptoThreadz
+  facebook: kryptothreadz
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - bitpay
+  - coinbase
+  - coinpayments.net
+- name: Lanieri S.r.l.
+  url: https://www.lanieri.com/
+  img: LanieriSrl.png
+  bch: true
+  btc: true
+  othercrypto: false
+  twitter: lanieriofficial
+  facebook: lanieriofficial
+  email_address: info@lanieri.com
+  keywords:
+  - bitpay
+  - bip70
 - name: Liberty Store
   url: https://www.libertystore.de
   img: libertystore.png
@@ -577,14 +550,6 @@ websites:
   keywords:
   - bitpay
   - bip70
-- name: max badger
-  url: https://www.maxbadger.com/
-  img: maxbadger.png
-  twitter: heymaxbadger
-  email_address: hey@maxbadger.com
-  bch: true
-  btc: true
-  othercrypto: false
 - name: MCT WATCHES
   url: http://www.mctwatches.com
   img: mct_watches.png
@@ -632,6 +597,16 @@ websites:
   email_address: customerservice@mycoconutheart.com
   country: US
   city: California
+- name: Naughty Gits
+  url: https://naughtygits.com/
+  img: naughtygits.png
+  twitter: naughtygits
+  facebook: naughttygits
+  bch: true
+  btc: true
+  othercrypto: true
+  keywords:
+  - coinbase
 - name: Negash
   url: https://www.negash83.com/
   img: negash.png
@@ -644,14 +619,6 @@ websites:
   keywords:
   - bitpay
   - bip70
-- name: Newxly
-  url: https://www.newxly.com
-  img: newxly.png
-  twitter: NewxlyOfficial
-  email_address: social@newxly.com
-  bch: true
-  btc: true
-  othercrypto: true
 - name: Octocool
   url: http://octocool.com/
   img: octocool.png
@@ -662,14 +629,16 @@ websites:
   btc: true
   othercrypto: false
   doc: https://www.reddit.com/r/btc/comments/9i8kwk/i_got_octocool_to_start_accepting_bitcoin_cash/
-- name: Omura
-  url: https://shopomura.com
-  img: omura.png
-  twitter: shop_omura
-  facebook: shopomura
-  bch: false
+- name: Olympian Bitcoin Store
+  url: https://olympianbitcoin.store/
+  img: olympianbitcoin.png
+  twitter: OlympianBitcoin
+  bch: true
   btc: true
   othercrypto: true
+  doc: https://olympianbitcoin.store/pages/faq
+  keywords:
+  - coinpayments.net
 - name: Pastease
   url: https://pastease.com/
   img: pastease.png
@@ -684,6 +653,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Picky Mouse
+  url: https://pickymouse.com/
+  facebook: Pickymouse
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://pickymouse.com/pages/payments
+  keywords:
+  - coinbase
 - name: Pirate Printing Company
   url: https://pirateprintingcompany.com/
   img: pirateprintingcompany.png
@@ -695,6 +673,17 @@ websites:
   keywords:
   - bitpay
   - bip70
+- name: Print-ted.com
+  url: https://print-ted.com
+  img: Printtedcom.png
+  bch: true
+  btc: false
+  othercrypto: true
+  twitter: printtedstore
+  email_address: info@print-ted.com
+  doc: https://print-ted.com/pages/payment-methods
+  keywords:
+  - coinpayments.net
 - name: Pro Crypto
   url: http://procrypto.net/
   img: procrypto.png
@@ -703,13 +692,15 @@ websites:
   bch: true
   btc: true
   othercrypto: false
-- name: Reservoir Mugs
-  url: https://reservoirmugs.com
-  twitter: reservoirmugs
-  img: reservoirmugs.png
+- name: Relax Wear
+  url: https://relax-wear.com/
+  img: relaxwear.png
+  facebook: RelaxWearOfficial
   bch: true
   btc: true
   othercrypto: true
+  keywords:
+  - coinbase
 - name: RespawnWear
   url: https://respawnwear.com/
   img: respawnwear.png
@@ -755,25 +746,6 @@ websites:
   bch: false
   btc: true
   othercrypto: false
-- name: Spend Crypto Here
-  url: https://spendcryptohere.com
-  facebook: Spendcryptohere
-  email_address: spendceyptohere@gmail.com
-  region: na
-  country: US
-  bch: true
-  btc: false
-  othercrypto: true
-- name: Strapping Fellow
-  url: https://www.strappingfellow.com/
-  img: strappingfellow.png
-  facebook: strappingfellow
-  bch: true
-  btc: true
-  othercrypto: false
-  keywords:
-  - bitpay
-  - bip70
 - name: Sure Design T-Shirts
   url: https://www.suredesigntshirts.com/
   img: suredesign.png
@@ -873,14 +845,17 @@ websites:
   btc: true
   othercrypto: true
   doc: https://wikileaks.shop/pages/faq
-- name: WK END eyewear
-  url: https://wkend.club/
-  img: wkendclub.png
-  facebook: wkend.club
-  email_address: info@wkend.club
+- name: Youphoria Festivalwear
+  url: https://youphoriafestivalwear.com/
+  img: YouphoriaFestivalwear.png
   bch: true
-  btc: false
-  othercrypto: true
+  btc: true
+  othercrypto: false
+  email_address: youphoriafestivalwear@gmail.com
+  doc: https://www.facebook.com/youphorialove/photos/a.372299386611232/580019099172592/?type=3&theater
+  keywords:
+  - bitpay
+  - bip70
 - name: Zappos
   url: https://www.zappos.com/
   twitter: Zappos
