@@ -1,12 +1,16 @@
 ---
 websites:
-- name: 1Fox
-  url: https://1fox.com/
-  img: 1fox.png
-  twitter: 1Foxcom
+- name: 3XBIT
+  url: https://3xbit.com.br/
+  img: 3xbit.png
+  twitter: 3xbit
+  facebook: 3xbit.global
   bch: true
   btc: true
-  othercrypto: false
+  othercrypto: true
+  region: sa
+  country: BR
+  lang: pt
 - name: Abra
   url: https://www.abra.com/
   img: abra.png
@@ -16,11 +20,26 @@ websites:
   btc: true
   othercrypto: true
   doc: https://www.abra.com/blog/bitcoin-cash-support/
+- name: ALFAcashier
+  url: https://www.alfacashier.com/
+  img: alfacashier.png
+  twitter: alfacashier
+  facebook: alfacashiercom
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Alluma
   url: https://www.alluma.io/
   img: alluma.png
   twitter: allumaexchange
   facebook: alluma
+  bch: true
+  btc: true
+  othercrypto: true
+- name: altilly
+  url: https://www.altilly.com/
+  img: altilly.png
+  twitter: altillycom
   bch: true
   btc: true
   othercrypto: true
@@ -32,6 +51,14 @@ websites:
   othercrypto: true
   facebook: ANXINTL
   twitter: ANX_PRO
+- name: BC Bitcoin
+  url: https://www.bcbitcoin.co.uk/
+  img: bcbitcoin.png
+  twitter: bc_bitcoin
+  facebook: BCBitcoinCrypto
+  bch: true
+  btc: true
+  othercrypto: true
 - name: BestRate.org
   url: https://bestrate.org
   twitter: Bestrateorg
@@ -102,6 +129,14 @@ websites:
   btc: true
   othercrypto: true
   doc: https://bitflyer.jp/cam/bch-201708/ja/?top_link
+- name: BitForex
+  url: https://www.bitforex.com/
+  img: bitforex.png
+  twitter: bitforexcom
+  facebook: bitforexcom
+  bch: true
+  btc: true
+  othercrypto: true
 - name: Bithumb
   url: https://www.bithumb.com/
   img: bithumb.png
@@ -125,6 +160,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: bitqist
+  url: https://www.bitqist.com
+  img: bitqist.png
+  bch: true
+  btc: true
+  othercrypto: true
+  twitter: bitqist
+  facebook: bitqist
+  email_address: derk@bitqist.com
 - name: Bitrush.nl
   url: https://bitrush.nl/nl/shop/eur-bch/bitcoin-cash
   img: bitrush.png
@@ -136,6 +180,8 @@ websites:
 - name: Bitstamp
   url: https://bitstamp.net
   img: bitstamp.png
+  twitter: Bitstamp
+  facebook: Bitstamp
   bch: true
   btc: true
   othercrypto: true
@@ -159,6 +205,16 @@ websites:
   btc: true
   othercrypto: true
   doc: https://support.bittrex.com/hc/en-us/articles/115000808991-Statement-on-Bitcoin-Cash-BCH-
+- name: Bittylicious
+  url: https://bittylicious.com/
+  img: bittylicious.png
+  twitter: Bittylicious_
+  facebook: BittyliciousBitcoins
+  bch: true
+  btc: true
+  othercrypto: true
+  exceptions:
+    text: Coin availability depends on location.
 - name: Braziliex
   url: https://braziliex.com/
   img: braziliex.png
@@ -171,6 +227,16 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: BTC Markets
+  url: https://btcmarkets.net/
+  img: btcmarkets.png
+  twitter: BTCMarkets
+  facebook: BTCMarkets
+  bch: true
+  btc: true
+  othercrypto: true
+  region: oc
+  country: AU
 - name: BTCPOP
   url: https://btcpop.co/
   img: btcpop.png
@@ -192,6 +258,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Cash2VN
+  url: https://www.cash2vn.com/
+  img: cash2vn.png
+  bch: true
+  btc: true
+  othercrypto: true
+  region: as
+  country: VN
 - name: CEX.IO
   url: https://cex.io/
   img: cex.png
@@ -199,15 +273,14 @@ websites:
   btc: true
   othercrypto: true
   doc: https://blog.cex.io/news/bitcoin-cash-deposits-withdrawals-enabled-cex-io-16432
-- name: CFINEX
-  url: https://cfinex.com/
-  img: cfinex.png
-  twitter: cfinex
-  email_address: support@cfinex.info
+- name: ChangeNOW
+  url: https://changenow.io/
+  img: changenow.png
+  twitter: ChangeNOW_io
+  facebook: ChangeNOW.io
   bch: true
   btc: true
   othercrypto: true
-  doc: https://twitter.com/cfinex/status/984134767288438784
 - name: Cobinhood
   url: https://cobinhood.com/
   img: cobinhood.png
@@ -219,6 +292,8 @@ websites:
 - name: Coinbase
   url: https://www.coinbase.com/
   img: coinbase.png
+  twitter: Coinbase
+  facebook: coinbase
   bch: true
   btc: true
   othercrypto: true
@@ -226,6 +301,7 @@ websites:
 - name: Coinbase Pro
   url: https://pro.coinbase.com/
   img: coinbasepro.png
+  twitter: CoinbasePro
   bch: true
   btc: true
   othercrypto: true
@@ -240,7 +316,6 @@ websites:
 - name: CoinCola
   url: https://www.coincola.com/
   img: coincola.png
-  twitter: CoinCola7
   facebook: CoinCola
   bch: true
   btc: true
@@ -248,8 +323,6 @@ websites:
 - name: CoinDeal
   url: https://coindeal.com/
   img: CoinDeal.png
-  twitter: coin_deal
-  facebook: CoinDealCom
   email_address: katarzyna.pergol@coindeal.com
   bch: true
   btc: true
@@ -267,6 +340,13 @@ websites:
 - name: CoinExchange.io
   url: https://www.coinexchange.io/
   img: coinexchangeio.png
+  bch: true
+  btc: true
+  othercrypto: true
+- name: CoinFLEX
+  url: https://www.coinflex.com/
+  img: coinflex.png
+  twitter: CoinFLEXdotcom
   bch: true
   btc: true
   othercrypto: true
@@ -301,6 +381,23 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Coinsuper
+  url: https://www.coinsuper.com/
+  img: coinsuper.png
+  twitter: Coinsuper_OFCL
+  facebook: Coinsuper-2022907647988954
+  bch: true
+  btc: true
+  othercrypto: true
+- name: CoinSwitch
+  url: https://coinswitch.co/
+  img: coinswitch.png
+  twitter: coinswitch
+  facebook: coinswitch
+  email_address: partnership@coinswitch.co
+  bch: true
+  btc: true
+  othercrypto: true
 - name: CoinTiger
   url: https://www.cointiger.pro
   img: cointiger.png
@@ -310,15 +407,40 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-- name: Cryptopia
-  url: https://www.cryptopia.co.nz
-  img: cryptopia.png
+- name: Cointree
+  url: https://www.cointree.com
+  img: cointree.png
+  twitter: cointreeaus
+  facebook: cointreeofficial
   bch: true
   btc: true
   othercrypto: true
+  doc: https://www.cointree.com/blog/bitcoin-cash-upcoming-fork-announcement
+- name: Crypto Facilities
+  url: https://www.cryptofacilities.com/
+  img: cryptofacilities.png
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://www.cryptofacilities.com/cryptocurrency-news/bch-usd-futures/
 - name: DSX
   url: https://dsx.uk/
   img: dsx.png
+  bch: true
+  btc: true
+  othercrypto: true
+- name: DX Exchange
+  url: https://dx.exchange/
+  img: dxexchange.png
+  twitter: DXdotExchange
+  facebook: dx.exchange
+  bch: true
+  btc: true
+  othercrypto: true
+- name: Easyrabbit
+  url: https://easyrabbit.net/
+  img: easyrabbit.png
+  twitter: easyrabbit_net
   bch: true
   btc: true
   othercrypto: true
@@ -336,6 +458,15 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Faa.st
+  url: https://faa.st/
+  img: faast.png
+  twitter: goFaast
+  facebook: FaastCrypto
+  bch: true
+  btc: true
+  othercrypto: true
+  doc: https://medium.com/faast/bitcoin-cash-bch-now-supported-on-faast-3332c8e6f85f
 - name: FastX
   url: https://fastx.io
   img: fastx.png
@@ -362,26 +493,22 @@ websites:
   btc: true
   othercrypto: false
   doc: https://support.gatehub.net/hc/en-us/articles/115004422789-Bitcoin-Cash-BCH-update
-- name: GDAX
-  url: https://www.gdax.com/
-  img: gdax.png
-  twitter: gdax
-  facebook: GDAX.Exchange
-  bch: true
-  btc: true
-  othercrypto: true
-  doc: https://support.gdax.com/customer/portal/articles/2911310-bitcoin-cash-faq
-  exceptions:
-    text: GDAX is becoming Coinbase Pro on June 29, 2018.
 - name: Gemini
   url: https://gemini.com/
   img: gemini.png
   twitter: GeminiDotCom
-  facebook: GeminiDotCom
   bch: true
   btc: false
   othercrypto: true
-  status: https://news.bitcoin.com/adding-bitcoin-cash-and-litecoin-is-main-goal-of-2018-for-gemini-exchange/
+- name: Gibraltar Blockchain Exchange
+  url: https://gbx.gi/
+  img: gbx.png
+  twitter: GibBlockEx
+  facebook: GibBlockEx
+  bch: true
+  btc: true
+  othercrypto: true
+  region: eu
 - name: Ginero
   url: https://ginero.io
   img: ginero.png
@@ -389,9 +516,25 @@ websites:
   btc: true
   othercrypto: true
   facebook: ginero.io
+- name: Handle Krypto
+  url: https://handlekrypto.no/
+  img: handlekrypto.png
+  twitter: HandleKrypto
+  facebook: HandleKrypto-2498391390188760
+  bch: true
+  btc: true
+  othercrypto: true
 - name: HitBTC
   url: https://www.hitbtc.com/
   img: hitbtc.png
+  bch: true
+  btc: true
+  othercrypto: true
+- name: HOTBIT
+  url: https://www.hotbit.io/
+  img: hotbit.png
+  twitter: Hotbit_news
+  facebook: Hotbit.io
   bch: true
   btc: true
   othercrypto: true
@@ -406,9 +549,21 @@ websites:
 - name: Independent Reserve
   url: https://www.independentreserve.com/
   img: independentreserve.png
+  twitter: indepreserve
+  facebook: independentreserve
   bch: true
   btc: true
   othercrypto: true
+- name: InstaCrypto
+  url: https://www.instacrypto.in/
+  img: instacrypto.png
+  twitter: InstaCryptoIN
+  facebook: instacryptoin
+  bch: true
+  btc: true
+  othercrypto: true
+  region: as
+  country: IN
 - name: JIBEX
   url: https://www.jib-ex.com/
   img: jibex.png
@@ -434,7 +589,14 @@ websites:
   url: https://www.lbank.info/
   img: lbank.png
   twitter: LBank_Exchange
-  facebook: lbank.lbank.5
+  bch: true
+  btc: true
+  othercrypto: true
+- name: LiteBit
+  url: https://www.litebit.eu/
+  img: litebit.png
+  twitter: litebiteu
+  facebook: litebiteu
   bch: true
   btc: true
   othercrypto: true
@@ -444,6 +606,14 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: Local.bitcoin.com
+  url: https://local.bitcoin.com/
+  img: localbitcoincom.png
+  twitter: bitcoincom
+  facebook: buy.bitcoin.news
+  bch: true
+  btc: false
+  othercrypto: false
 - name: Lykke
   url: https://www.lykke.com/
   img: lykke.png
@@ -486,9 +656,15 @@ websites:
 - name: OKEx
   url: https://www.okex.com/
   img: okex.png
-  twitter: OKEx_
   facebook: OKEx.Official
   email_address: support@okex.com
+  bch: true
+  btc: true
+  othercrypto: true
+- name: One Page Exchange
+  url: https://onepagex.com/
+  img: onepageexchange.png
+  twitter: OnePageX
   bch: true
   btc: true
   othercrypto: true
@@ -518,12 +694,6 @@ websites:
   btc: true
   othercrypto: true
   doc: https://poloniex.com/press-releases/2017.08.03-Bitcoin-Cash-Update/
-- name: QuadrigaCX
-  url: https://www.quadrigacx.com
-  img: quadrigacx.png
-  bch: true
-  btc: true
-  othercrypto: true
 - name: Quoine
   url: https://quoine.com/
   img: quoine.png
@@ -532,6 +702,26 @@ websites:
   bch: true
   btc: true
   othercrypto: true
+- name: SengiCoin
+  url: https://sengicoin.com
+  img: SengiCoin.png
+  bch: true
+  btc: false
+  othercrypto: true
+  email_address: support@sengicoin.com
+  country: CD
+  city: Kinshasa 
+- name: Stealthex.io
+  url: https://stealthex.io/
+  img: stealthexio.png
+  twitter: Stealthex_io
+  facebook: Stealthex.io
+  email_address: pr@stealthex.io
+  bch: true
+  btc: true
+  othercrypto: true
+  exceptions:
+    text: Funds from users in prohibited jurisdictions will be seized, check terms and conditions.
 - name: Switchain
   url: https://switchain.com
   img: switchaindotcom.png
@@ -554,16 +744,6 @@ websites:
   bch: true
   btc: true
   othercrypto: true
-- name: Tradingview
-  url: https://www.tradingview.com/
-  img: tradingview.png
-  twitter: tradingview
-  facebook: tradingview
-  bch: true
-  btc: true
-  othercrypto: true
-  keywords:
-  - coinbase
 - name: UPbit
   url: https://upbit.com/
   img: upbit.png
@@ -597,9 +777,11 @@ websites:
   bch: false
   btc: true
   othercrypto: true
-- name: WEX (BTC-E)
-  url: https://btc-e.nz
-  img: wex.png
+- name: XCH4NGE
+  url: https://www.xch4nge.com/
+  img: xch4nge.png
+  twitter: xch4nge
+  facebook: xch4nge
   bch: true
   btc: true
   othercrypto: true
